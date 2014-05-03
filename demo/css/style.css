@@ -1,8 +1,19 @@
-div.content { background:#ddd; height: 100vh; width: 1040px; margin: 20px auto; padding: 20px; position: relative; }
+div.content { background:#ddd; height: 100vh; width: 1040px; margin: 20px auto; padding: 20px; }
 
-ul.images {list-style: none inside none; height: 180px;}
+ul.images {list-style: none inside none; height: 180px; }
 
-ul.images li {float: left; margin: 0 10px; }
+ul.images li {float: left; margin: 0 10px; position: relative;}
+
+ul.images li img { position: absolute;}
+
+
+ul.images li:first-child img {left: 50px;}
+
+ul.images li:nth-child(2) img  {left: 270px;}
+
+ul.images li:nth-child(3) img {left: 500px;}
+
+ul.images li:nth-child(4) img {left: 720px;}
 
 /*
 ul.images img {float: left; margin: 0 10px;}

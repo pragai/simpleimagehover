@@ -13,7 +13,7 @@
 		<script src="../dist/jquery.simpleimagehover.js"></script>
         <script>
             $(function() {
-                $('.hoverimage').SimpleImageHover({placement:'outside'});
+                $('.hoverimage').SimpleImageHover({placement:'inside'});
             });
         </script>	
 	</head>
@@ -21,6 +21,8 @@
         <div class="content">
 	    	<h1>jQuery SimpleImageHover plugin demo</h1>
 	    	<p>Move the mouse over the images.</p>
+
+            <p>Usage: $('.hoverimage').SimpleImageHover({placement:'inside'});</p>
 
     		<ul class="images">
     			<li><img class="hoverimage" src="img/img_1.jpg" alt="" width="210"></li>

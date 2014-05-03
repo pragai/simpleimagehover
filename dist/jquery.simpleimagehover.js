@@ -58,20 +58,20 @@
 	    		var el = $(this);
 	    		el.data({width:el.width(),height:el.height()});
 				el.hover(function() {
-						el.css("z-index", 1);
+						el.css("z-index", 1); el.parent().css("z-index", 1);
 						el.animate({
 							height: el.height()*opts.ratio,
 							width: el.width()*opts.ratio,
-							left: "-="+(opts.width-el.data("width"))/2,
-							top: "-="+(opts.height-el.data("height"))/2
+							left: "-="+(el.data("width")*opts.ratio)/4,
+							top: "-="+(el.data("height")*opts.ratio)/4
 		            	}, "fast");
 			        }, function() {
-						el.css("z-index", 0);
+						el.css("z-index", 0);el.parent().css("z-index", 0);
 						el.animate({
 							height: el.data("height"),
 							width: el.data("width"),
-							left: "+="+(opts.width-el.data("width"))/2,
-							top: "+="+(opts.height-el.data("height"))/2
+							left: "+="+(el.data("width")*opts.ratio)/4,
+							top: "+="+(el.data("height")*opts.ratio)/4
 			            }, "slow");
 				    });
 			});

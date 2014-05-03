@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery SimpleImageHover</title>
+       	<meta charset="utf-8">
+        <meta name="description" content="jQuery hoverImage plugin">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Robert Pragai">
+
+        <link rel="stylesheet" href="css/style.css">
+ 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="../dist/jquery.simpleimagehover.js"></script>
+        <script>
+            $(function() {
+                $('.hoverimage').SimpleImageHover({placement:'outside'});
+            });
+        </script>	
+	</head>
+	<body>
+        <div class="content">
+	    	<h1>jQuery SimpleImageHover plugin demo</h1>
+	    	<p>Move the mouse over the images.</p>
+
+    		<ul class="images">
+    			<li><img class="hoverimage" src="img/img_1.jpg" alt="" width="210"></li>
+                <li><img class="hoverimage" src="img/img_2.jpg" alt="" width="210"></li>
+                <li><img class="hoverimage" src="img/img_3.jpg" alt="" width="210"></li>
+                <li><img class="hoverimage" src="img/img_4.jpg" alt="" width="210"></li>
+    		</ul>
+    		<h2>Possible options:</h2>
+    		<ul>
+    			<li>"placement" : "inside" or "outside". "inside" to enlarge the image itself. You have to take care for css of the images in this case! Make "position:static;" and set top and left css attributes! Using "outside" you get a simple pop-over with the image enlarged. (This is the default.)</li>
+    			<li>"ratio" : how much times enlarge the images. (Default: 2)</li>
+    			<li>"originalpane": what shall be the id of the pop-over. (To avoid id conflict. Default: hoverimage_pane)</li>
+    		</ul>
+        </div>
+
+    </body>
+</html>

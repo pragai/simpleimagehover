@@ -1,0 +1,36 @@
+{
+	"name": "SimpleImageHover",
+	"title": "jQuery SimpleImageHover",
+	"description": "SimpleImageHover jQuery plugin.",
+	"keywords": [
+		"jquery",
+		"hover",
+		"plugin"
+	],
+	"version": "0.1",
+	"author": {
+		"name": "Robert Pragai",
+		"email": "pragai.robert@abasys.hu",
+		"url": "https://github.com/pragai"
+	},
+	"maintainers": [
+		{
+			"name": "Robert Pragai",
+			"email": "pragai.robert@abasys.hu",
+			"url": "https://github.com/pragai"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://zenorocha.mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/jquery-boilerplate/boilerplate/issues",
+	"homepage": "http://jqueryboilerplate.com",
+	"docs": "https://github.com/jquery-boilerplate/boilerplate#readme",
+	"download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

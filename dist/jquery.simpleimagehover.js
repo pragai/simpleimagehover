@@ -28,7 +28,7 @@
 	    opts = $.extend( {}, defaults, options );
 
 		if (opts.placement == "outside" && $("#"+opts.originalpane).length ==0)
-			$("body").append("<div id='"+opts.originalpane+" style='display:none; z-index:100;''><img /></div>");
+			$("body").append("<div id='"+opts.originalpane+"' style='display:none; z-index:100;'><img /></div>");
 
 	    if (opts.placement == "outside") {
 

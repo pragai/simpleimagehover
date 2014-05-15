@@ -10,26 +10,26 @@
 	"version": "0.1",
 	"author": {
 		"name": "Robert Pragai",
-		"email": "pragai.robert@abasys.hu",
+		"email": "info@abasys.hu",
 		"url": "https://github.com/pragai"
 	},
 	"maintainers": [
 		{
 			"name": "Robert Pragai",
-			"email": "pragai.robert@abasys.hu",
+			"email": "info@abasys.hu",
 			"url": "https://github.com/pragai"
 		}
 	],
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "http://zenorocha.mit-license.org/"
+			"url": "http://pragai.mit-license.org/"
 		}
 	],
-	"bugs": "https://github.com/jquery-boilerplate/boilerplate/issues",
-	"homepage": "http://jqueryboilerplate.com",
-	"docs": "https://github.com/jquery-boilerplate/boilerplate#readme",
-	"download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
+	"bugs": "https://github.com/pragai/simpleimagehover/issues",
+	"homepage": "http://abasys.hu/simpleimagehover",
+	"docs": "https://github.com/pragai/simpleimagehover#readme",
+	"download": "https://github.com/pragai/simpleimagehover/archive/master.zip",
 	"dependencies": {
 		"jquery": ">=1.4"
 	}

@@ -1,13 +1,5 @@
 /*
  *  jQuery SimpleImageHover - v0.1
- *  SimpleImageHover jQuery plugin.
- *  http://jqueryboilerplate.com
- *
- *  Made by Robert Pragai
- *  Under MIT License
- */
-/*
- *  jQuery SimpleImageHover - v0.1
  *  A minimalistic image hover jquery plugin.
  *  http://abasys.hu/hoverImage
  *
